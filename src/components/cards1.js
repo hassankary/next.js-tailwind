@@ -4,7 +4,6 @@ import React from "react";
 
 
 const Cards1 = ({ title, subtitle, imageSource }) => {
-  console.log('title', title)
   return (
     <div className=" w-full md:w-[32%] mb-4 md:mb-0 bg-white px-8 py-8 lg:px-16 lg:py-16 rounded-[32px] shadow-xl">
       <div className="flex-col justify-center items-center text-center">
