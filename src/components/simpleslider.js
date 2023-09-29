@@ -43,7 +43,7 @@ const Client = ({ title, subtitle, subtitle2, subtitle3, subtitle4 }) => {
         </p>
       </div>
       <div className="flex justify-center p-8">
-        <Image src="images/ellipse.svg" height={128} width={128} />
+        <Image src="images/Ellipse.svg" height={128} width={128} />
       </div>
       <div>
         <p className="text-[#FF5722] text-[28px] font-bold">

@@ -9,7 +9,7 @@ export const Header = () => {
           <Link href="/" className=" my-auto bg-white md:order-2">
             <Image
               className="py-auto hover:drop-shadow-lg"
-              src="images/logo.svg"
+              src="images/Logo.svg"
               width={142}
               height={40}
               alt="logo"
