@@ -58,7 +58,7 @@ export const Footer = () => {
     <div className="xl:flex xl:px-32 xl:justify-between  xl:space-x-16">
       <div className="px-4 py-8 sm:px-[42px] sm:py-16 space-y-8 lg:px-16 xl:px-0 xl:w-1/2">
         <div>
-          <Image src="images/logo.svg" alt="gambar" width={142} height={40} />
+          <Image src="images/Logo.svg" alt="gambar" width={142} height={40} />
         </div>
         <div className="">
           <h1 className=" text-[16px] lg:text-[23px] text-left text-black leading-[160%] ">
