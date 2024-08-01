@@ -87,7 +87,7 @@ export const Footer = () => {
           />
         </div>
       </div>
-      <div className="px-4 py-4 sm:px-[42px] lg:hidden space-y-16 mb-[72px]">
+      <div className="px-4 py-4 sm:px-[42px] lg:hidden space-y-16 mb-[56px]">
         {mockFooter.map((data, idx) => {
           return (
             <ButtonFooter

@@ -5,7 +5,7 @@ import Link from "next/link";
 export const Header = () => {
     return (
       <div className="fixed w-full top-0 bg-white z-50">
-        <nav className="flex px-4 md:px-10 xl:px-16 py-8 xl:py-2 mx-auto justify-between">
+        <nav className="flex px-4 md:px-10 xl:px-16 py-2 xl:py-2 mx-auto justify-between shadow-sm">
           <Link href="/" className=" my-auto bg-white md:order-2">
             <Image
               className="py-auto hover:drop-shadow-lg"

@@ -301,7 +301,7 @@ export const Main = () => {
         </div>
       </div>
       <div className=" xl:flex xl:justify-between xl:py-16 xl:px-16 xl:space-x-8">
-        <div className="px-4 py-8 md:px-10 md:py-10 lg:py-16 xl:flex-col xl:my-auto xl:py-0 xl:px-0 xl:max-w-[450px]">
+        <div id="home" className="px-4 py-8 md:px-10 md:py-10 lg:py-16 xl:flex-col xl:my-auto xl:py-0 xl:px-0 xl:max-w-[450px]">
           <div className="space-y-[10px] text-center xl:flex-col xl:text-left xl:items-center ">
             <div>
               <p className="flex justify-center xl:justify-start text-[16px] lg:text-[24px] font-bold text-[#F85E9F] tracking-widest">
@@ -329,7 +329,7 @@ export const Main = () => {
         </div>
       </div>
       <div className="xl:flex xl:flex-row xl:justify-between xl:mx-[112px]">
-        <div className="px-4 py-8 md:px-10 md:py-10 xl:py-16 xl:px-3">
+        <div id="promo" className="px-4 py-8 md:px-10 md:py-10 xl:py-16 xl:px-3">
           <div className="space-y-[10px] text-center xl:space-y-[5px]">
             <div>
               <p className="flex justify-center text-[16px] lg:text-[24px] font-bold text-[#F85E9F] tracking-widest">
@@ -482,7 +482,7 @@ export const Main = () => {
         />
       </div>
 
-      <div className=" px-4 sm:px-[42px] lg:px-16 lg:py-16 xl:px-32">
+      <div id="contact" className=" px-4 sm:px-[42px] lg:px-16 lg:py-16 xl:px-32">
         <div className="py-8 md:py-10 md:px-16 lg:py-32 sm:rounded-[32px] shadow-lg bg-[#FFFBF0]">
           <div className="px-[32px] lg:px-0 text-center">
             <div>
@@ -497,7 +497,7 @@ export const Main = () => {
             </div>
             <form className="flex-col space-y-8 sm:space-y-0 sm:flex sm:flex-row sm:items-center justify-center sm:space-x-8 lg:text-[23px]  mt-16">
               <input
-                className=" w-full  max-w-[757px] py-6 p-8 sm:px-8 sm:py-8 rounded-[16px] sm:rounded-[32px] font-medium text-center sm:text-left lg:text-[23px]"
+                className="w-full text-black max-w-[757px] py-6 p-8 sm:px-8 sm:py-8 rounded-[16px] sm:rounded-[32px] font-medium text-center sm:text-left lg:text-[23px]"
                 placeholder="Your Email"
                 type="text"
               ></input>
@@ -524,28 +524,28 @@ export const Main = () => {
 
       <section></section>
 
-      <div className=" fixed bottom-0 right-0 left-0 bg-[#5D50C6] p-4 xl:hidden">
+      <div className="fixed bottom-0 right-0 left-0 bg-[#5D50C6] py-2 xl:hidden">
         <div className="flex justify-around">
-          <Link href="/">
-            <div className="flex flex-col justify-center items-center w-[102px]">
+          <Link href="/" className="w-1/4">
+            <div className="flex flex-col pt-1 justify-center items-center">
               <ion-icon name="home"></ion-icon>
               <div>Home</div>
             </div>
           </Link>
-          <Link href="/">
-            <div className="flex flex-col justify-center items-center w-[102px]">
+          <Link href="/#home" className="w-1/4">
+            <div className="flex flex-col pt-1 justify-center items-center">
               <ion-icon name="rocket"></ion-icon>
               <div>Discover</div>
             </div>
           </Link>
-          <Link href="/">
-            <div className="flex flex-col justify-center items-center w-[102px]">
+          <Link href="/#promo" className="w-1/4">
+            <div className="flex flex-col pt-1 justify-center items-center">
               <ion-icon name="pricetags"></ion-icon>
-              <div>Special Deals</div>
+              <div>Promo</div>
             </div>
           </Link>
-          <Link href="/">
-            <div className="flex flex-col justify-center items-center w-[102px]">
+          <Link href="/#contact" className="w-1/4">
+            <div className="flex flex-col pt-1 justify-center items-center">
               <ion-icon name="call"></ion-icon>
               <div>Contact</div>
             </div>
