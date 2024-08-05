@@ -526,25 +526,25 @@ export const Main = () => {
 
       <div className="fixed bottom-0 right-0 left-0 bg-[#5D50C6] py-2 xl:hidden">
         <div className="flex justify-around">
-          <Link href="/" className="w-1/4">
+          <Link href="/" className="w-1/4 active:scale-[95%] transition-all">
             <div className="flex flex-col pt-1 justify-center items-center">
               <ion-icon name="home"></ion-icon>
               <div>Home</div>
             </div>
           </Link>
-          <Link href="/#home" className="w-1/4">
+          <Link href="/#home" className="w-1/4 active:scale-[95%] transition-all">
             <div className="flex flex-col pt-1 justify-center items-center">
               <ion-icon name="rocket"></ion-icon>
               <div>Discover</div>
             </div>
           </Link>
-          <Link href="/#promo" className="w-1/4">
+          <Link href="/#promo" className="w-1/4 active:scale-[95%] transition-all">
             <div className="flex flex-col pt-1 justify-center items-center">
               <ion-icon name="pricetags"></ion-icon>
               <div>Promo</div>
             </div>
           </Link>
-          <Link href="/#contact" className="w-1/4">
+          <Link href="/#contact" className="w-1/4 active:scale-[95%] transition-all">
             <div className="flex flex-col pt-1 justify-center items-center">
               <ion-icon name="call"></ion-icon>
               <div>Contact</div>
