@@ -525,32 +525,32 @@ export const Main = () => {
 
       <section></section>
 
-      <div className="fixed bottom-0 right-0 left-0 bg-[#5D50C6] py-2 xl:hidden">
+      <div className="z-30 fixed bottom-0 right-0 left-0 bg-[#5D50C6] py-2 xl:hidden">
         <div className="flex justify-around">
-          <Link href="/" className="w-1/4 active:scale-[95%] transition-all">
-            <div className="flex flex-col pt-1 justify-center items-center">
+          <button onClick={() => router.push('/')} className="w-1/4 active:scale-[95%] transition-all">
+            <p className="flex flex-col pt-1 justify-center items-center">
               <ion-icon name="home"></ion-icon>
-              <div>Home</div>
-            </div>
-          </Link>
-          <Link href="/#home" className="w-1/4 active:scale-[95%] transition-all">
-            <div className="flex flex-col pt-1 justify-center items-center">
+              <span>Home</span>
+            </p>
+          </button>
+          <button onClick={() => router.push('/#home')} className="w-1/4 active:scale-[95%] transition-all">
+            <p className="flex flex-col pt-1 justify-center items-center">
               <ion-icon name="rocket"></ion-icon>
-              <div>Discover</div>
-            </div>
-          </Link>
-          <Link href="/#promo" className="w-1/4 active:scale-[95%] transition-all">
-            <div className="flex flex-col pt-1 justify-center items-center">
+              <span>Discover</span>
+            </p>
+          </button>
+          <button onClick={() => router.push('/#promo')} className="w-1/4 active:scale-[95%] transition-all">
+            <p className="flex flex-col pt-1 justify-center items-center">
               <ion-icon name="pricetags"></ion-icon>
-              <div>Promo</div>
-            </div>
-          </Link>
-          <Link href="/#contact" className="w-1/4 active:scale-[95%] transition-all">
-            <div className="flex flex-col pt-1 justify-center items-center">
+              <span>Promo</span>
+            </p>
+          </button>
+          <button onClick={() => router.push('/#contact')} className="w-1/4 active:scale-[95%] transition-all">
+            <p className="flex flex-col pt-1 justify-center items-center">
               <ion-icon name="call"></ion-icon>
-              <div>Contact</div>
-            </div>
-          </Link>
+              <span>Contact</span>
+            </p>
+          </button>
         </div>
       </div>
       
