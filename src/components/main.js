@@ -87,6 +87,7 @@ export const Main = () => {
 
   return (
     <>
+    <title>Lets Travel</title>
       <div className="xl:flex xl:justify-center">
         <div className="pt-[128px] px-4 md:px-16 md:pt-[176px] lg:px-[125px] xl:px-0 xl:order-2 ">
           <section className="flex justify-center">
@@ -105,7 +106,7 @@ export const Main = () => {
               <div className="flex justify-center xl:justify-start  ">
                 <button
                   onClick={redirect}
-                  className="flex space-x-4 px-8 py-4 bg-white text-sm font-bold text-[#F85E9F] hover:border-2 hover:border-gray-600 rounded-full mb-4 sm:mb-6 md:mb-10 items-center shadow-lg"
+                  className="flex space-x-4 px-8 py-4 bg-white text-sm font-bold text-[#F85E9F] hover:border-2 hover:border-gray-600 rounded-full mb-4 sm:mb-6 md:mb-10 items-center shadow-lg active:scale-[95%] transition-all"
                 >
                   <p>Explore the world!</p>
                   <Image
@@ -132,12 +133,12 @@ export const Main = () => {
             <div className="px-4">
               <div className=" w-full sm:space-x-4 sm:flex justify-center mb-8 md:mb-10 lg:mb-16 space-y-6 sm:space-y-0">
                 <div>
-                  <button className="text-[14px] font-bold py-6 sm:py-4 px-auto sm:px-8 bg-[#5D50C6] hover:bg-[#6a5cdf] transition w-full sm:w-auto rounded-full shadow-lg">
+                  <button className="text-[14px] font-bold py-6 sm:py-4 px-auto sm:px-8 bg-[#5D50C6] hover:bg-[#6a5cdf] transition w-full sm:w-auto rounded-full shadow-lg active:scale-[95%] transition-all">
                     Get Started
                   </button>
                 </div>
                 <div className="flex-col items-center sm:mb-4 ">
-                  <button className="flex justify-center  bg-white hover:border-2 hover:border-gray-600 py-6 sm:py-4 sm:px-8 px-auto w-full sm:w-auto rounded-full space-x-2 shadow-lg">
+                  <button className="flex justify-center bg-white hover:border-2 hover:border-gray-600 py-6 sm:py-4 sm:px-8 px-auto w-full sm:w-auto rounded-full space-x-2 shadow-lg active:scale-[95%] transition-all">
                     <Image
                       src="images/logoplay.svg"
                       width={24}
@@ -347,7 +348,7 @@ export const Main = () => {
         <div className=" px-4 lg:flex-col lg:my-auto">
           <div className=" w-full space-x-4 flex justify-between sm:justify-center">
             <div>
-              <button className="py-6 px-6 sm:py-[38px] sm:px-[38px] bg-white transition rounded-full shadow-lg">
+              <button className="py-6 px-6 sm:py-[38px] sm:px-[38px] bg-white transition rounded-full shadow-lg active:scale-[95%] transition-all">
                 <Image
                   src="images/arrow-left.svg"
                   alt="arrow left"
@@ -357,7 +358,7 @@ export const Main = () => {
               </button>
             </div>
             <div>
-              <button className="py-6 px-6 sm:py-[38px] sm:px-[38px] bg-[#5D50C6] hover:border-2 hover:border-gray-600 rounded-full shadow-lg">
+              <button className="py-6 px-6 sm:py-[38px] sm:px-[38px] bg-[#5D50C6] hover:border-2 hover:border-gray-600 rounded-full shadow-lg active:scale-[95%] transition-all">
                 <Image
                   src="images/arrow-right.svg"
                   width={24}
@@ -503,7 +504,7 @@ export const Main = () => {
               ></input>
               <button
                 onClick={redirect}
-                className="w-full sm:max-w-[235px] flex space-x-4 py-6 sm:px-16 sm:py-8 bg-[#5D50C6] hover:bg-[#6a5cdf] text-sm lg:text-[23px] justify-center font-medium text-white rounded-[16px] sm:rounded-[32px] items-center shadow-lg"
+                className="w-full sm:max-w-[235px] flex space-x-4 py-6 sm:px-16 sm:py-8 bg-[#5D50C6] hover:bg-[#6a5cdf] text-sm lg:text-[23px] justify-center font-medium text-white rounded-[16px] sm:rounded-[32px] items-center shadow-lg active:scale-[95%] transition-all"
               >
                 <h1 className="flex lg:h-[34.5px] items-center">Subscribe</h1>
               </button>

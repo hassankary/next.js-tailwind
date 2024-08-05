@@ -22,7 +22,7 @@ const mockFooter = [
 
 const ButtonFooter = ({ title, imageSource }) => {
   return (
-    <button className="flex w-full justify-between ">
+    <button className="flex w-full justify-between button active:scale-[95%] transition-all">
       <h1 className="text-black text-[23px] font-bold">{title}</h1>
       <div>
         <Image src={imageSource} width={24} height={24} alt="icon-arrow-down" />
